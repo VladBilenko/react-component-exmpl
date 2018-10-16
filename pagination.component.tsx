@@ -18,7 +18,7 @@ interface IPagination {
 
 class PaginationComponent extends React.Component<IPagination, any> {
     public render() {
-        const pageable = this.props.pageable;
+        const {pageable} = this.props;
 
         return (
             pageable.isPageable ?
