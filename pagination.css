@@ -1,0 +1,11 @@
+.pagination__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2vw; }
+
+.pagination__value {
+  padding: 0 1.5vw; }
+
+.pagination__btn:hover {
+  color: #0015FF; }

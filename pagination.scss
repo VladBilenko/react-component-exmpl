@@ -1,0 +1,20 @@
+@import "../../../assets/styles/vars.scss";
+
+.pagination {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+  }
+
+  &__value {
+    padding: 0 1.5vw;
+  }
+
+  &__btn {
+    &:hover {
+      color: $mainBlue;
+    }
+  }
+}
